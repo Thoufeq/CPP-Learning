@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main() { // main is the entry point of any cpp code from where the cpu starts running hte code.
     cout << "Hello World!" << endl;
     return 0; // The return 0; at the end of a C++ main() function 
               // is a signal from your program to the Operating System (OS). 
