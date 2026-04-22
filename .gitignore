@@ -1,0 +1,13 @@
+# Ignore executables and build folders
+out/
+bin/
+*.exe
+*.o
+*.out
+
+# Ignore Mac-specific clutter
+.DS_Store
+*.dSYM/
+
+# Ignore VS Code settings (optional, keeps the repo focused on code)
+.vscode/
