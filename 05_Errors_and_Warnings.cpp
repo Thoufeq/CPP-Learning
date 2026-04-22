@@ -7,7 +7,7 @@ int main(){
     cout << "Hello" << endl // Semicolon is missing
     
     
-    //Runtime Error
+    //Runtime Error(The code compiles into binary code but it won't run.)
     cout << 7/0; // warning: division by zero [-Wdiv-by-zero]
 
     return 0;
