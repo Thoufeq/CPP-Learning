@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    // Integer(whole numbers only)
+    // Integer(whole numbers only || Takes 4 or more bytes in memory)
     int a = -12;
     int b = 12.3; // it truncates the decimal value and gives only integer part
     cout << "Integer : " << a << "  " << b << endl;
@@ -25,13 +25,12 @@ int main() {
     cout << "Boolean : " << g << " " << h << endl;
 
     // String (it is an object(remember its an object) that represents a sequence of text or character datatypes)
-
     string i = "Hello";
     string j = "I am Mr.";
     cout << i << " World!" << '\n';
     cout << j << "Hoffman" << '\n';
-    cout << "I am " << d << " years old.";
+    cout << "I am " << d << " years old." << endl;
 
-    
+
     return 0;
 }
